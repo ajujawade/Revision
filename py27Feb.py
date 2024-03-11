@@ -129,19 +129,19 @@
 # dictA["age"] = 18
 # print(dictA)
 # print(dict)
-dictA = {
-    "color" : "red",
-    "type"  : "sedane"
-}
+# dictA = {
+#     "color" : "red",
+#     "type"  : "sedane"
+# }
 
-print("Hello")
-print(dictA.get("color"))
-print("bye")
-a = dictA.get("typee")
-b = dictA["color"]
+# print("Hello")
+# print(dictA.get("color"))
+# print("bye")
+# a = dictA.get("typee")
+# b = dictA["color"]
 
-print(a)
-print(b)
+# print(a)
+# print(b)
 
 ####################################################################################################################
 
@@ -167,6 +167,47 @@ print(b)
 
 # SET
 
+set1 = {11,22,33,44,55,66}
+
+# print(set1[0])
+
+print(set1)
+print(type(set1))
+
+set1.update({0,9,8,7,6,5,43,21})
+print(set1)
+
+set1.remove(0)
+
+print(set1)
+
+set1.pop()
+print(set1)
+
+set1.pop()
+print(set1)
+
+set1.discard(10)
+print(set1)
+
+set1.add(10)
+print(set1)
+
+set1.update([90,80,70,60])
+print(set1)
+
+
+set1.add(40)
+print(set1)
+
+set2 = {70,80,60,90,10,20,30,40}
+diff = set1.difference(set2)
+
+print(diff)
+
+
+diff1 = set1.difference_update(set2)
+print(diff1)
 
 
 
