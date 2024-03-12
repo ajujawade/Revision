@@ -10,11 +10,34 @@ console.log(q3)
 let byttribute = document.querySelector(id = '[one]')
 
 let button = document.querySelector('button')
-let text = document.querySelector
+let intext = document.querySelector('input')
+let ulist = document.querySelector('ul')
+
+
+// button.addEventListener('click', function() {
+
+//     let textcolor = inp
+
+// })
+
+
+// button.addEventListener('click', function() {
+
+//     let txt = text.value
+//     let newel = document.createElement('li')
+//     newel.textContent = txt
+//     ulist.appendChild(newel)
+//     text.value = ""
+
+// })
 
 
 button.addEventListener('click', function() {
 
-    let textcolor = inp
+    let text = intext.value
+    let newli = document.createElement('li')
+    newli.textContent = text
+    ulist.appendChild(newli)
+    intext.value = ""
 
 })
