@@ -47,6 +47,14 @@ result = add(35,9)
 print(result)
 
 
+dmas = lambda x,y:[x+y,x-y,x*y,x/y,x%y]
+
+def cal(fn,x,y):
+    result = fn(x,y)
+    return result
+
+result = cal(dmas,20,10)
+print(result)
 
     
 
